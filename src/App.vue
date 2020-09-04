@@ -1,32 +1,9 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <h1>Hello, World!</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci at, eligendi et explicabo fuga impedit in, omnis pariatur perferendis praesentium provident quae quas! Accusantium eius inventore vitae. Blanditiis eveniet id reprehenderit sapiente soluta! Beatae delectus ducimus ea in, laudantium magnam, pariatur, quam quibusdam ratione reiciendis sed sequi suscipit tempora?</p>
   </div>
 </template>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
 </style>
